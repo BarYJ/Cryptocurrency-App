@@ -18,3 +18,19 @@ Be sure to subscribe to our YouTube channel for more videos like this!
   <img src="https://contributors-img.web.app/image?repo=byprogrammers/lets-code-react-native" />
 </a>
 
+## Splah screen (for ios)
+npm i react-native-splash-screen --save
+react-native link
+cd ios , pod install , cd ..
+
+// insert these into AppDelegate:
+#import "RNSplashScreen.h"  // here
+
+[RNSplashScreen show];  // here (under didFinishLaunching... right before return YES)
+
+
+## React Native Gradient
+npm install react-native-linear-gradient --save
+react-native link
+cd ios , pod install , cd.. (Everytime installed a new library, re-install pod)
+
