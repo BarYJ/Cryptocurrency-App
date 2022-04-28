@@ -34,3 +34,10 @@ npm install react-native-linear-gradient --save
 react-native link
 cd ios , pod install , cd.. (Everytime installed a new library, re-install pod)
 
+
+## Install Victory Native (For graph chart)
+
+npm install victory-native --save
+
+npm install react-native-svg --save
+
