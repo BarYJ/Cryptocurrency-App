@@ -1,11 +1,9 @@
-import react from "react";
 import React from "react";
 import {
   StyleSheet,
   SafeAreaView,
   View,
   Text,
-  TouchableOpacity,
   Image,
   ScrollView,
   Animated,

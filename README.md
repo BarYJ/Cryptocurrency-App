@@ -41,3 +41,6 @@ npm install victory-native --save
 
 npm install react-native-svg --save
 
+## running the app
+react-native run-ios
+
